@@ -6,7 +6,7 @@ from telegram.ext import (
 )
 from config import TOKEN
 
-updater = Updater(token='5035937809:AAGaOrZ8RRr7SK3bl-ftoT3bySg3ZDfp2DA', use_context=True)
+updater = Updater(token=TOKEN, use_context=True)
 print(updater)
 dispatcher = updater.dispatcher
 
